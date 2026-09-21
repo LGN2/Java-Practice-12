@@ -4,6 +4,7 @@
 import java.util.Scanner;
 
 public class Task420StringEquality {
+    // Runs the Task 420 demonstration.
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter yes: ");
