@@ -19,6 +19,7 @@ public class Task427PaymentOverride {
         void process() { System.out.println("Processing payment from PayPal."); }
     }
 
+    // Runs the Task 427 demonstration.
     public static void main(String[] args) {
         new CashPayment().process();
         new CardPayment().process();
