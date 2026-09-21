@@ -1,3 +1,6 @@
+/**
+ * Task 424: encapsulated Dog age.
+ */
 public class Task424EncapsulatedDogAge {
     static class Dog {
         private int age;
