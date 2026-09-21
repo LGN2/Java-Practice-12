@@ -17,7 +17,22 @@ public class Task431PaymentMenu {
     }
 
     public static void main(String[] args) {
-        System.out.println("Task 431 object model is ready.");
+        Scanner scanner = new Scanner(System.in);
+        List<Payment> payments = new ArrayList<>();
+        boolean exit = false;
+        while (!exit) {
+            printMenu();
+            String input = scanner.nextLine().trim();
+            switch (input) {
+                case "1": addPayment(new CashPayment(), payments); break;
+                case "2": addPayment(new CardPayment(), payments); break;
+                case "3": addPayment(new PayPalPayment(), payments); break;
+                case "4": printPayments(payments); break;
+                case "5": exit = true; System.out.println("Payment menu closed."); break;
+                default: System.out.println("Choose an option from 1 to 5.");
+            }
+        }
+        scanner.close();
     }
 
     static void printMenu() {
