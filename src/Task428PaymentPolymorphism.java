@@ -16,6 +16,7 @@ public class Task428PaymentPolymorphism {
         @Override void process() { System.out.println("Processing PayPal payment."); }
     }
 
+    // Runs the Task 428 demonstration.
     public static void main(String[] args) {
         List<Payment> payments = new ArrayList<>();
         payments.add(new CashPayment());
