@@ -1,3 +1,6 @@
+/**
+ * Task 423: animal interface polymorphism.
+ */
 import java.util.ArrayList;
 import java.util.List;
 
