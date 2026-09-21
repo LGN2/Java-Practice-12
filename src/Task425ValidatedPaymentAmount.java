@@ -13,6 +13,12 @@ public class Task425ValidatedPaymentAmount {
     }
 
     public static void main(String[] args) {
-        System.out.println("Task 425 object model is ready.");
+        Scanner scanner = new Scanner(System.in);
+        Payment payment = new Payment();
+        System.out.print("Enter payment amount: ");
+        if (scanner.hasNextDouble()) payment.setAmount(scanner.nextDouble());
+        else System.out.println("Invalid amount.");
+        System.out.println("Saved amount: " + payment.getAmount());
+        scanner.close();
     }
 }
