@@ -17,6 +17,7 @@ public class Task417ManyBookObjects {
         }
     }
 
+    // Runs the Task 417 demonstration.
     public static void main(String[] args) {
         Book firstBook = new Book("Learning Java", "Ishaq");
         Book secondBook = new Book("Object-Oriented Basics", "Fatma");
