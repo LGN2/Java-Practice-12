@@ -11,6 +11,19 @@ public class Task419CarScannerInput {
     }
 
     public static void main(String[] args) {
-        System.out.println("Task 419 object model is ready.");
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter car colour: ");
+        String colour = scanner.nextLine().trim();
+        System.out.print("Enter plate: ");
+        String plate = scanner.nextLine().trim();
+        if (colour.isEmpty() || plate.isEmpty()) {
+            System.out.println("Colour and plate cannot be blank.");
+        } else {
+            Car car = new Car();
+            car.colour = colour;
+            car.plate = plate;
+            car.drive();
+        }
+        scanner.close();
     }
 }
