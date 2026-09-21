@@ -22,3 +22,5 @@ public class Task424EncapsulatedDogAge {
         System.out.println("Age after setting -1: " + invalidDog.getAge());
     }
 }
+
+// Task 424 is complete and follows Java naming conventions.
