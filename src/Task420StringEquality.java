@@ -1,3 +1,6 @@
+/**
+ * Task 420: String equality comparison.
+ */
 import java.util.Scanner;
 
 public class Task420StringEquality {
