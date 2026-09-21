@@ -12,6 +12,7 @@ public class Task421StaticKeyword {
         }
     }
 
+    // Runs the Task 421 demonstration.
     public static void main(String[] args) {
         Helper.hello();
         Helper helper = new Helper();
