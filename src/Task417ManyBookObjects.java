@@ -15,6 +15,11 @@ public class Task417ManyBookObjects {
     }
 
     public static void main(String[] args) {
-        System.out.println("Task 417 object model is ready.");
+        Book firstBook = new Book("Learning Java", "Ishaq");
+        Book secondBook = new Book("Object-Oriented Basics", "Fatma");
+        Book thirdBook = new Book("Clean Code Practice", "Salim");
+        firstBook.printInfo();
+        secondBook.printInfo();
+        thirdBook.printInfo();
     }
 }
