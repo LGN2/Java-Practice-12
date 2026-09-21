@@ -31,6 +31,11 @@ public class Task432PaymentInterface {
     }
 
     public static void main(String[] args) {
-        System.out.println("Task 432 object model is ready.");
+        PaymentInterface[] payments = {new CashPayment(), new CardPayment(), new PayPalPayment()};
+        for (PaymentInterface payment : payments) {
+            System.out.println("Method added: " + payment.addPaymentMethod());
+            System.out.println("Retries: " + payment.paymentRetry());
+            payment.addDiscount();
+        }
     }
 }
