@@ -38,6 +38,7 @@ public class Task434SecurePayment {
         }
     }
 
+    // Runs the Task 434 demonstration.
     public static void main(String[] args) {
         System.out.println("Unchecked input could accept negative or extremely large amounts.");
         System.out.println("Unsafe text could also be stored or passed to another system as an injection trick.");
