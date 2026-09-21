@@ -7,6 +7,7 @@ public class Task426PaymentInheritance {
     }
 
     public static void main(String[] args) {
-        System.out.println("Task 426 object model is ready.");
+        CashPayment cashPayment = new CashPayment();
+        cashPayment.process();
     }
 }
