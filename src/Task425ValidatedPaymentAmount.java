@@ -1,3 +1,6 @@
+/**
+ * Task 425: validated payment amount.
+ */
 import java.util.Scanner;
 
 public class Task425ValidatedPaymentAmount {
