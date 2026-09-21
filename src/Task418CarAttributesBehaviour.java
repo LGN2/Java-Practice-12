@@ -1,3 +1,6 @@
+/**
+ * Task 418: Car attributes and behaviours.
+ */
 public class Task418CarAttributesBehaviour {
     static class Car {
         String colour;
