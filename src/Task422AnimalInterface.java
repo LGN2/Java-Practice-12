@@ -14,6 +14,7 @@ public class Task422AnimalInterface {
         public void makeSound() { System.out.println("The dog says: Woof!"); }
     }
 
+    // Runs the Task 422 demonstration.
     public static void main(String[] args) {
         AnimalBehaviour dog = new Dog();
         dog.eat();
