@@ -1,3 +1,6 @@
+/**
+ * Task 428: payment polymorphism.
+ */
 import java.util.ArrayList;
 import java.util.List;
 
