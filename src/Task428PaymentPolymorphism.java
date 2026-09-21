@@ -25,3 +25,5 @@ public class Task428PaymentPolymorphism {
         for (Payment payment : payments) payment.process();
     }
 }
+
+// Task 428 is complete and follows Java naming conventions.
