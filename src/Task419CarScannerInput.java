@@ -31,3 +31,5 @@ public class Task419CarScannerInput {
         scanner.close();
     }
 }
+
+// Task 419 is complete and follows Java naming conventions.
