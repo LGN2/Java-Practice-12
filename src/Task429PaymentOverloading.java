@@ -6,6 +6,9 @@ public class Task429PaymentOverloading {
     }
 
     public static void main(String[] args) {
-        System.out.println("Task 429 object model is ready.");
+        CashPayment payment = new CashPayment();
+        payment.accept("25.500 OMR");
+        payment.accept(9876543210L);
+        payment.accept(42);
     }
 }
