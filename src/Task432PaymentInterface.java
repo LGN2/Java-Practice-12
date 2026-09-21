@@ -1,3 +1,6 @@
+/**
+ * Task 432: payment interface rules.
+ */
 public class Task432PaymentInterface {
     interface PaymentInterface {
         boolean addPaymentMethod();
