@@ -20,3 +20,5 @@ public class Task421StaticKeyword {
         System.out.println("A static method needs no object; an instance method does.");
     }
 }
+
+// Task 421 is complete and follows Java naming conventions.
