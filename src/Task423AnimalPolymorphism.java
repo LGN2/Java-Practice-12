@@ -21,6 +21,9 @@ public class Task423AnimalPolymorphism {
     }
 
     public static void main(String[] args) {
-        System.out.println("Task 423 object model is ready.");
+        List<AnimalBehaviour> animals = new ArrayList<>();
+        animals.add(new Dog());
+        animals.add(new Cat());
+        for (AnimalBehaviour animal : animals) animal.makeSound();
     }
 }
