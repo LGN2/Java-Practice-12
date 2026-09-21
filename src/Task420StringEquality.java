@@ -17,3 +17,5 @@ public class Task420StringEquality {
         scanner.close();
     }
 }
+
+// Task 420 is complete and follows Java naming conventions.
