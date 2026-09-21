@@ -23,6 +23,7 @@ public class Task423AnimalPolymorphism {
         public void makeSound() { System.out.println("Meow!"); }
     }
 
+    // Runs the Task 423 demonstration.
     public static void main(String[] args) {
         List<AnimalBehaviour> animals = new ArrayList<>();
         animals.add(new Dog());
