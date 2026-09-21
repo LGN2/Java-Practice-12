@@ -1,3 +1,6 @@
+/**
+ * Task 422: AnimalBehaviour interface.
+ */
 public class Task422AnimalInterface {
     interface AnimalBehaviour {
         void eat();
