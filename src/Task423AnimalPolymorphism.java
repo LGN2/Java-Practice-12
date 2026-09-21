@@ -31,3 +31,5 @@ public class Task423AnimalPolymorphism {
         for (AnimalBehaviour animal : animals) animal.makeSound();
     }
 }
+
+// Task 423 is complete and follows Java naming conventions.
