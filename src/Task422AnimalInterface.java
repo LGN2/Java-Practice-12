@@ -12,6 +12,9 @@ public class Task422AnimalInterface {
     }
 
     public static void main(String[] args) {
-        System.out.println("Task 422 object model is ready.");
+        AnimalBehaviour dog = new Dog();
+        dog.eat();
+        dog.sleep();
+        dog.makeSound();
     }
 }
