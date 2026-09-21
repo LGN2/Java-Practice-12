@@ -12,6 +12,7 @@ public class Task424EncapsulatedDogAge {
         }
     }
 
+    // Runs the Task 424 demonstration.
     public static void main(String[] args) {
         Dog validDog = new Dog();
         validDog.setAge(5);
