@@ -1,3 +1,6 @@
+/**
+ * Task 419: safe Car input.
+ */
 import java.util.Scanner;
 
 public class Task419CarScannerInput {
