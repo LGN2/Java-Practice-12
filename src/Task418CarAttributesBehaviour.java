@@ -13,6 +13,10 @@ public class Task418CarAttributesBehaviour {
     }
 
     public static void main(String[] args) {
-        System.out.println("Task 418 object model is ready.");
+        Car car = new Car();
+        car.colour = "Black";
+        car.plate = "OM-1234";
+        car.drive();
+        car.brake();
     }
 }
