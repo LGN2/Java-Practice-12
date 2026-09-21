@@ -9,6 +9,7 @@ public class Task426PaymentInheritance {
     static class CashPayment extends Payment {
     }
 
+    // Runs the Task 426 demonstration.
     public static void main(String[] args) {
         CashPayment cashPayment = new CashPayment();
         cashPayment.process();
