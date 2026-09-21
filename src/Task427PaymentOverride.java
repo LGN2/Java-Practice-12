@@ -1,3 +1,6 @@
+/**
+ * Task 427: payment method overriding.
+ */
 public class Task427PaymentOverride {
     static class Payment {
         void process() { System.out.println("Processing the payment."); }
