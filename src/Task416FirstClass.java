@@ -10,6 +10,9 @@ public class Task416FirstClass {
     }
 
     public static void main(String[] args) {
-        System.out.println("Task 416 object model is ready.");
+        Book book = new Book();
+        book.title = "Java Basics";
+        book.author = "Maryam";
+        book.printInfo();
     }
 }
