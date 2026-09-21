@@ -36,6 +36,23 @@ public class Task434SecurePayment {
     }
 
     public static void main(String[] args) {
-        System.out.println("Task 434 object model is ready.");
+        System.out.println("Unchecked input could accept negative or extremely large amounts.");
+        System.out.println("Unsafe text could also be stored or passed to another system as an injection trick.");
+        System.out.println("Private fields and validated setters reject unsafe values before storage.");
+        Scanner scanner = new Scanner(System.in);
+        try {
+            System.out.print("Enter unique payment ID: ");
+            Payment payment = new Payment(scanner.nextLine());
+            System.out.print("Enter amount: ");
+            if (!scanner.hasNextDouble()) throw new IllegalArgumentException("Amount must be numeric.");
+            payment.setAmount(scanner.nextDouble());
+            scanner.nextLine();
+            System.out.print("Enter type (cash/card/paypal): ");
+            payment.setType(scanner.nextLine());
+            payment.printInfo();
+        } catch (IllegalArgumentException exception) {
+            System.out.println("Payment rejected: " + exception.getMessage());
+        }
+        scanner.close();
     }
 }
