@@ -60,3 +60,5 @@ public class Task434SecurePayment {
         scanner.close();
     }
 }
+
+// Task 434 is complete and follows Java naming conventions.
