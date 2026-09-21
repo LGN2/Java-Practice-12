@@ -15,6 +15,7 @@ public class Task418CarAttributesBehaviour {
         }
     }
 
+    // Runs the Task 418 demonstration.
     public static void main(String[] args) {
         Car car = new Car();
         car.colour = "Black";
