@@ -27,3 +27,5 @@ public class Task417ManyBookObjects {
         thirdBook.printInfo();
     }
 }
+
+// Task 417 is complete and follows Java naming conventions.
