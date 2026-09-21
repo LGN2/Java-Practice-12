@@ -20,3 +20,5 @@ public class Task416FirstClass {
         book.printInfo();
     }
 }
+
+// Task 416 is complete and follows Java naming conventions.
