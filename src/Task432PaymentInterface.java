@@ -33,6 +33,7 @@ public class Task432PaymentInterface {
         public void addDiscount() { System.out.println("PayPal discount: 3%"); }
     }
 
+    // Runs the Task 432 demonstration.
     public static void main(String[] args) {
         PaymentInterface[] payments = {new CashPayment(), new CardPayment(), new PayPalPayment()};
         for (PaymentInterface payment : payments) {
