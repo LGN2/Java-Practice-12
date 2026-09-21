@@ -1,3 +1,6 @@
+/**
+ * Task 417: multiple Book objects.
+ */
 public class Task417ManyBookObjects {
     static class Book {
         String title;
