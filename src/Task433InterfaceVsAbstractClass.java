@@ -2,6 +2,7 @@
  * Task 433: interface and abstract class explanation.
  */
 public class Task433InterfaceVsAbstractClass {
+    // Runs the Task 433 demonstration.
     public static void main(String[] args) {
         System.out.println("An interface defines rules that implementing classes promise to follow.");
         System.out.println("An abstract class can define shared fields, constructors, and both abstract and completed methods.");
