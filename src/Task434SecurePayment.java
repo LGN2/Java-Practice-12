@@ -1,3 +1,6 @@
+/**
+ * Task 434: secure payment validation.
+ */
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
