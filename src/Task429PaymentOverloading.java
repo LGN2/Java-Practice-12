@@ -1,3 +1,6 @@
+/**
+ * Task 429: payment method overloading.
+ */
 public class Task429PaymentOverloading {
     static class CashPayment {
         void accept(String cashAmount) { System.out.println("Accepted cash amount: " + cashAmount); }
