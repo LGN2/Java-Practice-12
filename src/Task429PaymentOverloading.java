@@ -8,6 +8,7 @@ public class Task429PaymentOverloading {
         void accept(int payOrder) { System.out.println("Accepted pay order: " + payOrder); }
     }
 
+    // Runs the Task 429 demonstration.
     public static void main(String[] args) {
         CashPayment payment = new CashPayment();
         payment.accept("25.500 OMR");
