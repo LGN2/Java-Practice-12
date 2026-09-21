@@ -1,3 +1,6 @@
+/**
+ * Task 421: static method demonstration.
+ */
 public class Task421StaticKeyword {
     static class Helper {
         static void hello() {
