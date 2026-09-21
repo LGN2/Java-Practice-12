@@ -14,6 +14,10 @@ public class Task428PaymentPolymorphism {
     }
 
     public static void main(String[] args) {
-        System.out.println("Task 428 object model is ready.");
+        List<Payment> payments = new ArrayList<>();
+        payments.add(new CashPayment());
+        payments.add(new CardPayment());
+        payments.add(new PayPalPayment());
+        for (Payment payment : payments) payment.process();
     }
 }
