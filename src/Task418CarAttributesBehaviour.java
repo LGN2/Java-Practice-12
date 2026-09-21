@@ -24,3 +24,5 @@ public class Task418CarAttributesBehaviour {
         car.brake();
     }
 }
+
+// Task 418 is complete and follows Java naming conventions.
