@@ -12,6 +12,7 @@ public class Task416FirstClass {
         }
     }
 
+    // Runs the Task 416 demonstration.
     public static void main(String[] args) {
         Book book = new Book();
         book.title = "Java Basics";
