@@ -1,3 +1,6 @@
+/**
+ * Task 430: polymorphism explanation.
+ */
 public class Task430PolymorphismStory {
     public static void main(String[] args) {
         System.out.println("A police officer is one person who can behave differently in different situations.");
