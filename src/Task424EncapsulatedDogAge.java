@@ -10,6 +10,11 @@ public class Task424EncapsulatedDogAge {
     }
 
     public static void main(String[] args) {
-        System.out.println("Task 424 object model is ready.");
+        Dog validDog = new Dog();
+        validDog.setAge(5);
+        System.out.println("Valid dog age: " + validDog.getAge());
+        Dog invalidDog = new Dog();
+        invalidDog.setAge(-1);
+        System.out.println("Age after setting -1: " + invalidDog.getAge());
     }
 }
