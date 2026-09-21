@@ -15,6 +15,7 @@ public class Task425ValidatedPaymentAmount {
         }
     }
 
+    // Runs the Task 425 demonstration.
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Payment payment = new Payment();
