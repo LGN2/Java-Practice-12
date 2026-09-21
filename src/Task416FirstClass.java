@@ -1,3 +1,6 @@
+/**
+ * Task 416: first Book class.
+ */
 public class Task416FirstClass {
     static class Book {
         String title;
