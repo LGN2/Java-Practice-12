@@ -17,6 +17,8 @@ public class Task427PaymentOverride {
     }
 
     public static void main(String[] args) {
-        System.out.println("Task 427 object model is ready.");
+        new CashPayment().process();
+        new CardPayment().process();
+        new PayPalPayment().process();
     }
 }
