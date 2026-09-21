@@ -19,6 +19,7 @@ public class Task431PaymentMenu {
         void process() { System.out.println("Processing PayPal payment."); }
     }
 
+    // Runs the Task 431 demonstration.
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         List<Payment> payments = new ArrayList<>();
