@@ -22,3 +22,5 @@ public class Task422AnimalInterface {
         dog.makeSound();
     }
 }
+
+// Task 422 is complete and follows Java naming conventions.
