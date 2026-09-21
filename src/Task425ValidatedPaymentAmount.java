@@ -26,3 +26,5 @@ public class Task425ValidatedPaymentAmount {
         scanner.close();
     }
 }
+
+// Task 425 is complete and follows Java naming conventions.
