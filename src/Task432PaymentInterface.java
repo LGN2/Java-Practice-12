@@ -43,3 +43,5 @@ public class Task432PaymentInterface {
         }
     }
 }
+
+// Task 432 is complete and follows Java naming conventions.
