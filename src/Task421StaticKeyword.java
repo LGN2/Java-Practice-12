@@ -10,6 +10,9 @@ public class Task421StaticKeyword {
     }
 
     public static void main(String[] args) {
-        System.out.println("Task 421 object model is ready.");
+        Helper.hello();
+        Helper helper = new Helper();
+        helper.helloFromObject();
+        System.out.println("A static method needs no object; an instance method does.");
     }
 }
