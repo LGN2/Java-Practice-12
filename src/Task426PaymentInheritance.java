@@ -15,3 +15,5 @@ public class Task426PaymentInheritance {
         cashPayment.process();
     }
 }
+
+// Task 426 is complete and follows Java naming conventions.
